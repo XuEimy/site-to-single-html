@@ -5,7 +5,9 @@ description: Migrate an authorized website or frontend project into a self-conta
 
 # Site to Single HTML
 
-Turn an authorized website or frontend codebase into one portable HTML file. Preserve source behavior where possible; never replace an existing product with an invented imitation.
+Convert an authorized website, production build, or frontend repository into one portable HTML file that opens directly through `file://`. Preserve the original interface, client-side routes, responsive layout, and useful offline states instead of replacing the product with an invented imitation.
+
+Use a source-first workflow plus dependency auditing, asset inlining, router adaptation, API/offline classification, and browser verification. The bundled Node.js tools work without third-party packages and make unresolved resources explicit rather than hiding incomplete migrations.
 
 ## Safety and fidelity
 
