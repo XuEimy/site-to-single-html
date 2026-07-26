@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site to Single HTML"
+  short_description: "迁移授权网站及前端路由为可离线运行的单文件 HTML"
+  default_prompt: "Use $site-to-single-html to migrate this authorized website into a verified standalone HTML file."
